@@ -30,11 +30,11 @@ export default function Footer() {
                 <Link href="/">
                   <figure className="footer-logo">
                     <Image
-                      src="/assets/images/logo.png"
+                      src="/assets/images/image-preview.png"
                       className="img-fluid"
-                      alt="Logo"
+                      alt="KibAminu Technology Solutions"
                       width={150}
-                      height={50}
+                      height={65}
                     />
                   </figure>
                 </Link>

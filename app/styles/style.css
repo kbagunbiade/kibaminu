@@ -22,18 +22,18 @@ Project:  Technofy
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
 :root {
-    --e-global-color-primary: #202020;
-    --e-global-color-secondary: #f86823;
+    --e-global-color-primary: #2C4E5E;
+    --e-global-color-secondary: #6DCDB8;
     --e-global-color-text: #656565;
-    --e-global-color-accent: #f86823;
+    --e-global-color-accent: #6DCDB8;
     --e-global-color-white: #ffffff;
     --e-global-color-light-white:#d6d8e2;
-    --e-global-color-very-dark-mostly-black-blue:#010521;
-    --e-button-gradient-1:#fa6220;
-    --e-button-gradient-2:#ef8b33;
-    --e-global-color-desaturated-blue:#353956;
-    --e-global-color-bright-orange:#f68a49; 
-    --e-global-color-very-pale-orange:#fff7f4;
+    --e-global-color-very-dark-mostly-black-blue:#2C4E5E;
+    --e-button-gradient-1:#F2A96C;
+    --e-button-gradient-2:#6DCDB8;
+    --e-global-color-desaturated-blue:#4A7C59;
+    --e-global-color-bright-orange:#F2A96C;
+    --e-global-color-very-pale-orange:#f0f9f7;
     --e-global-color-very-light-gray-mostly-white:#f9f9f9;
 }
 

@@ -15,10 +15,10 @@ export default function Header() {
             <Link className="navbar-brand" href="/">
               <figure className="mb-0 banner-logo">
                 <Image
-                  src="/assets/images/logo.png"
-                  alt="Kiba Aminu Logo"
+                  src="/assets/images/image-preview.png"
+                  alt="KibAminu Technology Solutions"
                   width={150}
-                  height={50}
+                  height={65}
                   className="img-fluid"
                 />
               </figure>
