@@ -15,7 +15,7 @@ export default function Header() {
             <Link className="navbar-brand" href="/">
               <figure className="mb-0 banner-logo">
                 <Image
-                  src="/assets/images/image-preview.png"
+                  src="/assets/images/image-preview-3.png"
                   alt="KibAminu Technology Solutions"
                   width={150}
                   height={65}

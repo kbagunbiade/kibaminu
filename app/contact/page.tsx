@@ -269,15 +269,6 @@ export default function Contact() {
                       </button>
                     </div>
                   </form>
-                  <figure className="faq-image mb-0">
-                    <Image
-                      src="/assets/images/faq-image.png"
-                      alt=""
-                      className="img-fluid"
-                      width={100}
-                      height={100}
-                    />
-                  </figure>
                 </div>
               </div>
             </div>
