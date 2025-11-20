@@ -156,10 +156,10 @@ export default function Contact() {
                     </p>
                     <p>
                       <a
-                        href="mailto:Babatope_agunbiade@hotmail.com"
+                        href="mailto:babatope_agunbiade@hotmail.com"
                         className="mb-0 text-decoration-none"
                       >
-                        Babatope_agunbiade@hotmail.com
+                        babatope_agunbiade@hotmail.com
                       </a>
                     </p>
                   </div>
