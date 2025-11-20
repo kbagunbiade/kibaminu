@@ -57,9 +57,9 @@ export default function Footer() {
                       <span className="text-white">Call us:</span>
                       <a
                         className="text-size-18 mb-0 text text-decoration-none"
-                        href="tel:+6138376284"
+                        href="tel:+16619042936"
                       >
-                        +61 3 837 6284
+                        +1 (661) 904-2936
                       </a>
                     </div>
                   </div>
@@ -76,10 +76,10 @@ export default function Footer() {
                     <div className="content">
                       <span className="text-white">Email us:</span>
                       <a
-                        href="mailto:info@kibaaminu.com"
+                        href="mailto:admin@kibaminutechsolutions.com"
                         className="text-size-18 mb-0 text-decoration-none"
                       >
-                        info@kibaaminu.com
+                        admin@kibaminutechsolutions.com
                       </a>
                     </div>
                   </div>

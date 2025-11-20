@@ -127,7 +127,8 @@ export default function Contact() {
                   <div className="box-content">
                     <h4>Location:</h4>
                     <p className="text">
-                      123 Business Street, Tech City, TC 12345
+                      26970 Hayward Blvd, 107<br />
+                      Hayward, CA 94542
                     </p>
                   </div>
                 </div>
@@ -147,18 +148,18 @@ export default function Contact() {
                     <h4 className="heading">Email:</h4>
                     <p>
                       <a
-                        href="mailto:info@kibaaminu.com"
+                        href="mailto:admin@kibaminutechsolutions.com"
                         className="text-decoration-none"
                       >
-                        info@kibaaminu.com
+                        admin@kibaminutechsolutions.com
                       </a>
                     </p>
                     <p>
                       <a
-                        href="mailto:support@kibaaminu.com"
+                        href="mailto:Babatope_agunbiade@hotmail.com"
                         className="mb-0 text-decoration-none"
                       >
-                        support@kibaaminu.com
+                        Babatope_agunbiade@hotmail.com
                       </a>
                     </p>
                   </div>
@@ -179,18 +180,18 @@ export default function Contact() {
                     <h4 className="heading">Phone:</h4>
                     <p>
                       <a
-                        href="tel:+012(345)67899"
+                        href="tel:+16619042936"
                         className="text-decoration-none text"
                       >
-                        +012 (345) 678 99
+                        +1 (661) 904-2936
                       </a>
                     </p>
                     <p>
                       <a
-                        href="tel:+1234567847858"
+                        href="tel:+19258081959"
                         className="mb-0 text-decoration-none text"
                       >
-                        +12345678 478 58
+                        +1 (925) 808-1959
                       </a>
                     </p>
                   </div>
