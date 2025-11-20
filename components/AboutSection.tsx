@@ -63,23 +63,24 @@ export default function AboutSection() {
                 />
               </figure>
               <h6>About Us</h6>
-              <h2>Innovative IT Solutions For Success</h2>
+              <h2>Strategic IT Partnership, Delivered</h2>
               <p>
-                With over a decade of experience in IT network computing consultation, we deliver
-                tailored solutions that drive business growth and operational excellence.
+                With over a decade of proven expertise, KibAminu partners with organizations
+                to design, secure, and optimize network infrastructures that fuel growth and
+                resilience. We're not just consultants—we're your dedicated technology ally.
               </p>
               <ul className="list-unstyled mb-0">
                 <li className="text">
-                  <i className="circle fa-duotone fa-check"></i>Expert network infrastructure design and implementation
+                  <i className="circle fa-duotone fa-check"></i>Enterprise-grade network design and deployment
                 </li>
                 <li className="text">
-                  <i className="circle fa-duotone fa-check"></i>Comprehensive security assessments and solutions
+                  <i className="circle fa-duotone fa-check"></i>Advanced cybersecurity and compliance frameworks
                 </li>
                 <li className="text">
-                  <i className="circle fa-duotone fa-check"></i>Cloud migration and optimization services
+                  <i className="circle fa-duotone fa-check"></i>Seamless cloud migration and hybrid solutions
                 </li>
                 <li className="text text1">
-                  <i className="circle fa-duotone fa-check"></i>24/7 IT support and proactive monitoring
+                  <i className="circle fa-duotone fa-check"></i>Round-the-clock managed support and monitoring
                 </li>
               </ul>
               <Link

@@ -39,7 +39,8 @@ export default function Footer() {
                   </figure>
                 </Link>
                 <p className="text-size-18 footer-text">
-                  Professional IT network computing consultation services for businesses looking to optimize their infrastructure and security.
+                  Your trusted partner for comprehensive IT network solutions—delivering strategic
+                  consultation, enterprise-grade implementation, and continuous support.
                 </p>
                 <div className="lower">
                   <div className="lower-content">
@@ -144,7 +145,7 @@ export default function Footer() {
                 <h4 className="heading mb-0 text-white">Subscribe to</h4>
                 <h4 className="heading text-white">Our Newsletter Today!</h4>
                 <p className="text-size-18 footer-text text-white">
-                  Get the latest updates on IT solutions and technology trends.
+                  Stay informed with insights on network infrastructure, security, and IT innovation.
                 </p>
                 <form method="POST" action="/api/subscribe">
                   <div className="form-group mb-0">
@@ -172,7 +173,7 @@ export default function Footer() {
             <div className="row copyright-border">
               <div className="col-lg-6 col-md-6 col-sm-12 co-12 column">
                 <p className="text-size-16">
-                  Copyright ©2025 Kiba Aminu. All Rights Reserved
+                  Copyright ©2025 KibAminu Technology Solutions. All Rights Reserved
                 </p>
               </div>
               <div className="col-lg-6 col-md-6 col-sm-12 co-12 d-md-block d-none">

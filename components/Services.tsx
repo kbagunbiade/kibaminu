@@ -5,22 +5,22 @@ const services = [
   {
     icon: '/assets/images/service-marketicon.png',
     title: 'Network Infrastructure',
-    description: 'Design and implementation of robust network infrastructure solutions tailored to your business needs.',
+    description: 'Custom network architecture tailored to your operational goals—scalable, secure, and built for performance from day one.',
   },
   {
     icon: '/assets/images/service-producticon.png',
-    title: 'Cloud Solutions',
-    description: 'Expert cloud migration, management, and optimization services for AWS, Azure, and Google Cloud.',
+    title: 'Cloud Integration',
+    description: 'Seamless cloud deployment and management across AWS, Azure, and Google Cloud—optimized for cost, speed, and reliability.',
   },
   {
     icon: '/assets/images/service-designicon.png',
-    title: 'Security Consulting',
-    description: 'Comprehensive security assessments, vulnerability testing, and implementation of security best practices.',
+    title: 'Cybersecurity & Compliance',
+    description: 'Enterprise-grade security frameworks, threat assessments, and compliance strategies that protect your most critical assets.',
   },
   {
     icon: '/assets/images/service-dataicon.png',
-    title: 'IT Support & Maintenance',
-    description: '24/7 IT support and proactive maintenance to keep your systems running smoothly and efficiently.',
+    title: 'Managed IT Support',
+    description: '24/7 all-around proactive monitoring, rapid response, and continuous optimization—keeping your network mission-ready, always.',
   },
 ];
 
@@ -50,10 +50,11 @@ export default function Services() {
           <div className="col-12">
             <div className="service_content" data-aos="fade-right">
               <h6>Our Services</h6>
-              <h2>BEST IT SOLUTION Services</h2>
+              <h2>End-to-End IT Network Solutions</h2>
               <p>
-                Comprehensive IT network computing consultation services designed to optimize
-                your infrastructure, enhance security, and drive digital transformation.
+                From strategic planning to hands-on implementation, we deliver comprehensive
+                network solutions that align technology with your business objectives—driving
+                efficiency, security, and competitive advantage.
               </p>
               <figure className="offer-circleimage mb-0">
                 <Image

@@ -56,7 +56,7 @@ export default function Contact() {
                     />
                   </figure>
                   <h1 className="text-white">Contact Us</h1>
-                  <p>Get in touch with our IT consultation experts today</p>
+                  <p>Connect with our network infrastructure experts—let's build your solution together</p>
                   <div className="box">
                     <span className="mb-0">Home</span>
                     <figure className="mb-0 arrow">
@@ -111,7 +111,7 @@ export default function Contact() {
             <div className="col-lg-5 col-md-12 col-sm-12 col-12">
               <div className="contact_content" data-aos="fade-right">
                 <h6>Contact Info</h6>
-                <h2>Get in Touch</h2>
+                <h2>Let's Connect</h2>
                 <div className="contact-box">
                   <div className="box-image">
                     <figure className="contact-location">
@@ -210,7 +210,7 @@ export default function Contact() {
                 </figure>
                 <div className="need_content">
                   <h6 className="text-white">Write to us</h6>
-                  <h2 className="text-white">Send us a Message</h2>
+                  <h2 className="text-white">Start the Conversation</h2>
                   <form onSubmit={handleSubmit(onSubmit)}>
                     <div className="row">
                       <div className="col-12">

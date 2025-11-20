@@ -6,33 +6,33 @@ import Link from 'next/link';
 const servicesData = [
   {
     icon: '/assets/images/service-marketicon.png',
-    title: 'Network Infrastructure Design',
-    description: 'Custom network architecture design and implementation for optimal performance and scalability.',
+    title: 'Network Infrastructure',
+    description: 'Strategic network architecture engineered for your operational needs—combining scalability, resilience, and performance optimization.',
   },
   {
     icon: '/assets/images/service-producticon.png',
-    title: 'Cloud Computing Solutions',
-    description: 'Expert cloud migration, deployment, and management across AWS, Azure, and Google Cloud platforms.',
+    title: 'Cloud Integration',
+    description: 'Expert deployment across AWS, Azure, and Google Cloud—delivering seamless transitions, hybrid architectures, and cost-optimized solutions.',
   },
   {
     icon: '/assets/images/service-designicon.png',
-    title: 'Cybersecurity Consulting',
-    description: 'Comprehensive security assessments, penetration testing, and implementation of security frameworks.',
+    title: 'Cybersecurity & Compliance',
+    description: 'Multi-layered security frameworks, vulnerability assessments, and regulatory compliance strategies—protecting your digital assets 24/7.',
   },
   {
     icon: '/assets/images/service-dataicon.png',
-    title: 'Network Monitoring & Support',
-    description: '24/7 proactive monitoring, maintenance, and technical support for your IT infrastructure.',
+    title: 'Managed IT Support',
+    description: 'Round-the-clock monitoring, rapid incident response, and proactive maintenance—ensuring your network runs at peak performance.',
   },
   {
     icon: '/assets/images/service-marketicon.png',
-    title: 'Disaster Recovery Planning',
-    description: 'Business continuity planning and disaster recovery solutions to protect your critical data.',
+    title: 'Disaster Recovery & Business Continuity',
+    description: 'Comprehensive backup strategies, failover systems, and recovery planning—minimizing downtime and safeguarding business operations.',
   },
   {
     icon: '/assets/images/service-producticon.png',
-    title: 'IT Infrastructure Optimization',
-    description: 'Performance analysis and optimization of existing IT systems for maximum efficiency.',
+    title: 'Network Optimization & Modernization',
+    description: 'Performance audits, infrastructure upgrades, and modernization roadmaps—transforming legacy systems into competitive advantages.',
   },
 ];
 
@@ -67,7 +67,7 @@ export default function Services() {
                   </figure>
                   <h1 className="text-white">Our Services</h1>
                   <p>
-                    Comprehensive IT network computing consultation services tailored to your needs
+                    Comprehensive IT network solutions designed to drive performance, security, and growth
                   </p>
                   <div className="box">
                     <span className="mb-0">Home</span>
@@ -132,10 +132,11 @@ export default function Services() {
             <div className="col-12">
               <div className="servicepage_content" data-aos="fade-right">
                 <h6>Our Services</h6>
-                <h2>BEST IT SOLUTION Services</h2>
+                <h2>Complete IT Network Solutions</h2>
                 <p>
-                  We provide comprehensive IT network computing consultation services designed to
-                  transform your business infrastructure and drive digital innovation.
+                  From strategic consulting to hands-on implementation, we deliver integrated
+                  IT network services that align with your business goals—ensuring reliability,
+                  security, and continuous innovation.
                 </p>
                 <figure className="offer-circleimage mb-0">
                   <Image
@@ -201,10 +202,10 @@ export default function Services() {
             <div className="col-lg-7 col-md-7 col-sm-12 col-12">
               <div className="consultation_content" data-aos="fade-right">
                 <h6>WE ARE HERE TO GUIDE YOU</h6>
-                <h2 className="text-white">NEED A CONSULTATION?</h2>
+                <h2 className="text-white">READY TO ELEVATE YOUR NETWORK?</h2>
                 <p className="mb-0">
-                  Get expert advice on optimizing your IT infrastructure and implementing
-                  best practices for network security and performance.
+                  Partner with KibAminu for strategic guidance, expert implementation, and
+                  ongoing support that transforms your IT infrastructure into a competitive advantage.
                 </p>
               </div>
             </div>

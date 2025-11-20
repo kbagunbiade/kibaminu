@@ -34,7 +34,7 @@ export default function About() {
                   </figure>
                   <h1 className="text-white">About Us</h1>
                   <p>
-                    Leading IT network computing consultation services with a decade of experience
+                    Empowering businesses with strategic IT network solutions and expert consultation
                   </p>
                   <div className="box">
                     <span className="mb-0">Home</span>
@@ -135,24 +135,25 @@ export default function About() {
                   />
                 </figure>
                 <h6>About Us</h6>
-                <h2>Innovative IT Solutions For Success</h2>
+                <h2>Where Technology Meets Mission</h2>
                 <p>
-                  We specialize in providing comprehensive IT network computing consultation services
-                  that help businesses optimize their infrastructure, enhance security, and achieve
-                  their digital transformation goals.
+                  KibAminu Technology Solutions is your trusted partner for comprehensive IT network
+                  infrastructure—delivering tailored strategies, enterprise-grade implementations, and
+                  continuous support that transforms networks into strategic business assets. Your success
+                  is our mission.
                 </p>
                 <ul className="list-unstyled mb-0">
                   <li className="text">
-                    <i className="circle fa-duotone fa-check"></i>Customized network infrastructure solutions
+                    <i className="circle fa-duotone fa-check"></i>Tailored network architecture for scalability and growth
                   </li>
                   <li className="text">
-                    <i className="circle fa-duotone fa-check"></i>Advanced security implementations
+                    <i className="circle fa-duotone fa-check"></i>Multi-layered cybersecurity and risk mitigation
                   </li>
                   <li className="text">
-                    <i className="circle fa-duotone fa-check"></i>Cloud migration and management
+                    <i className="circle fa-duotone fa-check"></i>Cloud-native and hybrid infrastructure expertise
                   </li>
                   <li className="text text1">
-                    <i className="circle fa-duotone fa-check"></i>Proactive monitoring and support
+                    <i className="circle fa-duotone fa-check"></i>Always-on managed services and strategic guidance
                   </li>
                 </ul>
                 <Link
@@ -185,6 +186,70 @@ export default function About() {
         </figure>
       </section>
 
+      {/* Company Story Section */}
+      <section className="service-section">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="service_content text-center" data-aos="fade-up">
+                <h6>Our Story</h6>
+                <h2>Built on Partnership, Powered by Purpose</h2>
+                <p className="mx-auto" style={{ maxWidth: '800px' }}>
+                  Founded in Hayward, California, KibAminu Technology Solutions was born from a shared
+                  vision: to deliver enterprise-grade IT network solutions with a personal touch. Our
+                  co-founders combined decades of technical expertise with a commitment to building lasting
+                  client relationships—creating a company that doesn't just implement technology, but partners
+                  with organizations to achieve their most ambitious goals. Today, we serve businesses across
+                  California and beyond, bringing strategic insight, technical excellence, and unwavering
+                  dedication to every engagement.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Meet the Founders Section */}
+      <section className="aboutus-section" style={{ paddingTop: '60px' }}>
+        <div className="container">
+          <div className="row mb-5">
+            <div className="col-12 text-center">
+              <h6>Leadership</h6>
+              <h2>Meet the Co-Founders</h2>
+            </div>
+          </div>
+          <div className="row mb-5">
+            <div className="col-lg-6 col-md-12 col-sm-12 col-12 mb-4" data-aos="fade-right">
+              <div className="service_content">
+                <h4>Kolapo Kiba</h4>
+                <h6 className="text-secondary">Co-Founder & Technical Lead</h6>
+                <p>
+                  Clients trust Kiba to listen first, solve second. His people-first mentality combined
+                  with deep technical acumen makes him a trusted ally for organizations navigating the
+                  digital landscape. Based in Hayward, Kiba prides himself on building partnerships, not
+                  just connections, ensuring every solution is tailored, future-proof, and delivered with
+                  integrity. He's committed to making enterprise-level IT solutions accessible to businesses
+                  of all sizes.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-6 col-md-12 col-sm-12 col-12 mb-4" data-aos="fade-left">
+              <div className="service_content">
+                <h4>Aminu Osaz</h4>
+                <h6 className="text-secondary">Co-Founder & Strategic Director</h6>
+                <p>
+                  IT is more than infrastructure—it's the foundation of business growth. Known
+                  for his approachable demeanor and unrelenting work ethic, he's the steady hand guiding
+                  clients through digital transformation. He believes that by fostering lasting relationships
+                  and delivering unwavering support, their company will set a new gold standard for network
+                  IT solutions from Hayward outward.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Achievements Section */}
       <section className="aboutoffer-section">
         <figure className="service-rightlayer mb-0">
@@ -201,10 +266,11 @@ export default function About() {
             <div className="col-12">
               <div className="offer_content">
                 <h6>What We Offer</h6>
-                <h2>Some of Our Achievements</h2>
+                <h2>Proven Results, Lasting Impact</h2>
                 <p>
-                  Over the years, we have helped numerous businesses transform their IT infrastructure
-                  and achieve operational excellence.
+                  Over a decade of partnership with organizations across industries—delivering
+                  measurable improvements in network performance, security posture, and operational
+                  efficiency.
                 </p>
               </div>
             </div>

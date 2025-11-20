@@ -32,12 +32,12 @@ export default function Hero() {
                     height={2}
                   />
                 </figure>
-                <h6>Welcome to Kiba Aminu</h6>
-                <h1>IT Network Computing Consultation</h1>
+                <h6>Welcome to KibAminu Technology Solutions</h6>
+                <h1>Your Network, Our Mission</h1>
                 <p>
-                  Expert network infrastructure design, security consulting, and IT solutions
-                  for businesses of all sizes. Transform your technology infrastructure with
-                  our professional consultation services.
+                  A truly single-source partnership for all network infrastructure, security,
+                  and IT solutions. We design, implement, and maintain enterprise-grade networks
+                  that power your business forward—with precision, reliability, and expert care.
                 </p>
                 <div className="box">
                   <Link
