@@ -6,33 +6,33 @@ import Link from 'next/link';
 const servicesData = [
   {
     icon: '/assets/images/service-marketicon.png',
-    title: 'Network Infrastructure',
-    description: 'Strategic network architecture engineered for your operational needs—combining scalability, resilience, and performance optimization.',
+    title: 'Low Voltage Cabling & Structured Wiring',
+    description: 'Professional Cat5e, Cat6, and fiber optic cable installation, patch panel termination, cable management, and complete structured cabling systems for offices and facilities.',
   },
   {
     icon: '/assets/images/service-producticon.png',
-    title: 'Cloud Integration',
-    description: 'Expert deployment across AWS, Azure, and Google Cloud—delivering seamless transitions, hybrid architectures, and cost-optimized solutions.',
+    title: 'CCTV & Surveillance Installation',
+    description: 'End-to-end security camera systems including IP cameras, NVR/DVR setup, remote viewing configuration, and ongoing maintenance for complete property protection.',
   },
   {
     icon: '/assets/images/service-designicon.png',
-    title: 'Cybersecurity & Compliance',
-    description: 'Multi-layered security frameworks, vulnerability assessments, and regulatory compliance strategies—protecting your digital assets 24/7.',
+    title: 'EV Charging Station Installation',
+    description: 'Complete electric vehicle charging infrastructure—from site assessment and electrical planning to charger installation, testing, and commissioning for residential and commercial properties.',
   },
   {
     icon: '/assets/images/service-dataicon.png',
-    title: 'Managed IT Support',
-    description: 'Round-the-clock monitoring, rapid incident response, and proactive maintenance—ensuring your network runs at peak performance.',
+    title: 'Server Room Setup & Racking',
+    description: 'Professional server room design, equipment racking and stacking, cable management, power distribution, and environmental controls—building reliable data center infrastructure.',
   },
   {
     icon: '/assets/images/service-marketicon.png',
-    title: 'Disaster Recovery & Business Continuity',
-    description: 'Comprehensive backup strategies, failover systems, and recovery planning—minimizing downtime and safeguarding business operations.',
+    title: 'POS & Business System Installation',
+    description: 'Point-of-sale system deployment, network configuration, payment terminal setup, receipt printer installation, and staff training for retail and restaurant operations.',
   },
   {
     icon: '/assets/images/service-producticon.png',
-    title: 'Network Optimization & Modernization',
-    description: 'Performance audits, infrastructure upgrades, and modernization roadmaps—transforming legacy systems into competitive advantages.',
+    title: 'Network & Hardware Troubleshooting',
+    description: 'On-site diagnostics and repair for network issues, computer problems, hardware failures, and equipment replacement—getting your systems back online fast.',
   },
 ];
 
@@ -67,7 +67,7 @@ export default function Services() {
                   </figure>
                   <h1 className="text-white">Our Services</h1>
                   <p>
-                    Comprehensive IT network solutions designed to drive performance, security, and growth
+                    Expert infrastructure installation and hands-on IT services—built right, every time
                   </p>
                   <div className="box">
                     <span className="mb-0">Home</span>
@@ -132,11 +132,11 @@ export default function Services() {
             <div className="col-12">
               <div className="servicepage_content" data-aos="fade-right">
                 <h6>Our Services</h6>
-                <h2>Complete IT Network Solutions</h2>
+                <h2>Professional Installation & Infrastructure Services</h2>
                 <p>
-                  From strategic consulting to hands-on implementation, we deliver integrated
-                  IT network services that align with your business goals—ensuring reliability,
-                  security, and continuous innovation.
+                  From cabling and CCTV to server room buildouts and EV charging stations—we bring
+                  technical expertise and hands-on experience to every installation. Your network
+                  infrastructure, done right.
                 </p>
                 <figure className="offer-circleimage mb-0">
                   <Image
@@ -201,11 +201,11 @@ export default function Services() {
           <div className="row">
             <div className="col-lg-7 col-md-7 col-sm-12 col-12">
               <div className="consultation_content" data-aos="fade-right">
-                <h6>WE ARE HERE TO GUIDE YOU</h6>
-                <h2 className="text-white">READY TO ELEVATE YOUR NETWORK?</h2>
+                <h6>WE ARE HERE TO HELP</h6>
+                <h2 className="text-white">NEED AN INSTALLATION QUOTE?</h2>
                 <p className="mb-0">
-                  Partner with KibAminu for strategic guidance, expert implementation, and
-                  ongoing support that transforms your IT infrastructure into a competitive advantage.
+                  From cabling projects to full infrastructure buildouts—get expert guidance and
+                  a detailed quote for your next installation. We're ready to bring your project to life.
                 </p>
               </div>
             </div>

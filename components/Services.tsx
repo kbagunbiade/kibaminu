@@ -4,23 +4,23 @@ import Link from 'next/link';
 const services = [
   {
     icon: '/assets/images/service-marketicon.png',
-    title: 'Network Infrastructure',
-    description: 'Custom network architecture tailored to your operational goals—scalable, secure, and built for performance from day one.',
+    title: 'Network Infrastructure & Cabling',
+    description: 'Complete low voltage cabling, structured wiring, and network installation—from Cat5e/Cat6 runs to fiber optics and patch panel terminations.',
   },
   {
     icon: '/assets/images/service-producticon.png',
-    title: 'Cloud Integration',
-    description: 'Seamless cloud deployment and management across AWS, Azure, and Google Cloud—optimized for cost, speed, and reliability.',
+    title: 'CCTV & Security Systems',
+    description: 'Professional security camera installation, IP surveillance systems, and monitoring solutions—protecting your property with clarity and reliability.',
   },
   {
     icon: '/assets/images/service-designicon.png',
-    title: 'Cybersecurity & Compliance',
-    description: 'Enterprise-grade security frameworks, threat assessments, and compliance strategies that protect your most critical assets.',
+    title: 'Server Room & IT Infrastructure',
+    description: 'Server room design, equipment racking and stacking, network engineering, and complete IT infrastructure deployment for businesses of all sizes.',
   },
   {
     icon: '/assets/images/service-dataicon.png',
-    title: 'Managed IT Support',
-    description: '24/7 all-around proactive monitoring, rapid response, and continuous optimization—keeping your network mission-ready, always.',
+    title: 'On-Site IT Support & Troubleshooting',
+    description: 'Hands-on hardware and network troubleshooting, POS system setup, equipment replacement, and ongoing technical support when you need it most.',
   },
 ];
 
@@ -50,11 +50,11 @@ export default function Services() {
           <div className="col-12">
             <div className="service_content" data-aos="fade-right">
               <h6>Our Services</h6>
-              <h2>End-to-End IT Network Solutions</h2>
+              <h2>Hands-On IT Infrastructure & Network Solutions</h2>
               <p>
-                From strategic planning to hands-on implementation, we deliver comprehensive
-                network solutions that align technology with your business objectives—driving
-                efficiency, security, and competitive advantage.
+                From low voltage cabling and CCTV installations to server room setup and network
+                engineering—we deliver on-site expertise and proven infrastructure solutions that
+                keep your business connected, secure, and running smoothly.
               </p>
               <figure className="offer-circleimage mb-0">
                 <Image

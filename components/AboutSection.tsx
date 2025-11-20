@@ -63,24 +63,25 @@ export default function AboutSection() {
                 />
               </figure>
               <h6>About Us</h6>
-              <h2>Strategic IT Partnership, Delivered</h2>
+              <h2>Hands-On Infrastructure Experts</h2>
               <p>
-                With over a decade of proven expertise, KibAminu partners with organizations
-                to design, secure, and optimize network infrastructures that fuel growth and
-                resilience. We're not just consultants—we're your dedicated technology ally.
+                Based in Hayward, CA, KibAminu brings over a decade of hands-on experience in
+                network infrastructure, cabling, and IT installations. We're the team businesses
+                trust for reliable, professional work—whether it's a single cable run or a
+                complete infrastructure buildout.
               </p>
               <ul className="list-unstyled mb-0">
                 <li className="text">
-                  <i className="circle fa-duotone fa-check"></i>Enterprise-grade network design and deployment
+                  <i className="circle fa-duotone fa-check"></i>Low voltage cabling and structured wiring systems
                 </li>
                 <li className="text">
-                  <i className="circle fa-duotone fa-check"></i>Advanced cybersecurity and compliance frameworks
+                  <i className="circle fa-duotone fa-check"></i>CCTV, security systems, and EV charging stations
                 </li>
                 <li className="text">
-                  <i className="circle fa-duotone fa-check"></i>Seamless cloud migration and hybrid solutions
+                  <i className="circle fa-duotone fa-check"></i>Server room setup, racking, and network engineering
                 </li>
                 <li className="text text1">
-                  <i className="circle fa-duotone fa-check"></i>Round-the-clock managed support and monitoring
+                  <i className="circle fa-duotone fa-check"></i>On-site troubleshooting and hardware support
                 </li>
               </ul>
               <Link

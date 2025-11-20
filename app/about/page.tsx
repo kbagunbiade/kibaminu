@@ -34,7 +34,7 @@ export default function About() {
                   </figure>
                   <h1 className="text-white">About Us</h1>
                   <p>
-                    Empowering businesses with strategic IT network solutions and expert consultation
+                    Professional infrastructure installation and IT services—serving the Bay Area since day one
                   </p>
                   <div className="box">
                     <span className="mb-0">Home</span>
@@ -135,25 +135,25 @@ export default function About() {
                   />
                 </figure>
                 <h6>About Us</h6>
-                <h2>Where Technology Meets Mission</h2>
+                <h2>Built on Expertise, Proven in the Field</h2>
                 <p>
-                  KibAminu Technology Solutions is your trusted partner for comprehensive IT network
-                  infrastructure—delivering tailored strategies, enterprise-grade implementations, and
-                  continuous support that transforms networks into strategic business assets. Your success
-                  is our mission.
+                  KibAminu Technology Solutions delivers professional network infrastructure installation
+                  and IT services throughout the Bay Area. From structured cabling and security systems to
+                  server room buildouts and troubleshooting—we bring hands-on technical expertise and a
+                  commitment to quality workmanship on every project.
                 </p>
                 <ul className="list-unstyled mb-0">
                   <li className="text">
-                    <i className="circle fa-duotone fa-check"></i>Tailored network architecture for scalability and growth
+                    <i className="circle fa-duotone fa-check"></i>Low voltage cabling, Cat5e/Cat6, fiber optics
                   </li>
                   <li className="text">
-                    <i className="circle fa-duotone fa-check"></i>Multi-layered cybersecurity and risk mitigation
+                    <i className="circle fa-duotone fa-check"></i>CCTV installation, EV charging stations, POS systems
                   </li>
                   <li className="text">
-                    <i className="circle fa-duotone fa-check"></i>Cloud-native and hybrid infrastructure expertise
+                    <i className="circle fa-duotone fa-check"></i>Server room design, racking and stacking, network engineering
                   </li>
                   <li className="text text1">
-                    <i className="circle fa-duotone fa-check"></i>Always-on managed services and strategic guidance
+                    <i className="circle fa-duotone fa-check"></i>On-site support, hardware troubleshooting, and repairs
                   </li>
                 </ul>
                 <Link
@@ -193,15 +193,14 @@ export default function About() {
             <div className="col-12">
               <div className="service_content text-center" data-aos="fade-up">
                 <h6>Our Story</h6>
-                <h2>Built on Partnership, Powered by Purpose</h2>
+                <h2>Built on Skill, Driven by Quality</h2>
                 <p className="mx-auto" style={{ maxWidth: '800px' }}>
-                  Founded in Hayward, California, KibAminu Technology Solutions was born from a shared
-                  vision: to deliver enterprise-grade IT network solutions with a personal touch. Our
-                  co-founders combined decades of technical expertise with a commitment to building lasting
-                  client relationships—creating a company that doesn't just implement technology, but partners
-                  with organizations to achieve their most ambitious goals. Today, we serve businesses across
-                  California and beyond, bringing strategic insight, technical excellence, and unwavering
-                  dedication to every engagement.
+                  Founded in Hayward, California, KibAminu Technology Solutions was built on a simple
+                  principle: do the work right, every time. Our co-founders brought together decades of
+                  hands-on experience in network infrastructure, cabling, and IT installations—creating
+                  a company that businesses trust for professional, reliable service. From low voltage
+                  cabling to full server room buildouts, we deliver technical expertise and quality
+                  workmanship on projects of all sizes throughout the Bay Area.
                 </p>
               </div>
             </div>
@@ -265,12 +264,12 @@ export default function About() {
           <div className="row">
             <div className="col-12">
               <div className="offer_content">
-                <h6>What We Offer</h6>
-                <h2>Proven Results, Lasting Impact</h2>
+                <h6>What We Deliver</h6>
+                <h2>Experience You Can Trust</h2>
                 <p>
-                  Over a decade of partnership with organizations across industries—delivering
-                  measurable improvements in network performance, security posture, and operational
-                  efficiency.
+                  Over a decade of professional installations across the Bay Area—from small businesses
+                  to large commercial projects. We bring the technical expertise and hands-on experience
+                  that gets the job done right.
                 </p>
               </div>
             </div>

@@ -157,9 +157,17 @@ export default function Contact() {
                     <p>
                       <a
                         href="mailto:babatope_agunbiade@hotmail.com"
-                        className="mb-0 text-decoration-none"
+                        className="text-decoration-none"
                       >
                         babatope_agunbiade@hotmail.com
+                      </a>
+                    </p>
+                    <p>
+                      <a
+                        href="mailto:aminuisegen1@gmail.com"
+                        className="mb-0 text-decoration-none"
+                      >
+                        aminuisegen1@gmail.com
                       </a>
                     </p>
                   </div>

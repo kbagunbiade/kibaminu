@@ -35,9 +35,9 @@ export default function Hero() {
                 <h6>Welcome to KibAminu Technology Solutions</h6>
                 <h1>Your Network, Our Mission</h1>
                 <p>
-                  A truly single-source partnership for all network infrastructure, security,
-                  and IT solutions. We design, implement, and maintain enterprise-grade networks
-                  that power your business forward—with precision, reliability, and expert care.
+                  Professional network infrastructure installation and IT services serving Hayward
+                  and the Bay Area. From low voltage cabling and CCTV systems to server room setup
+                  and POS installations—we deliver hands-on expertise that keeps your business connected.
                 </p>
                 <div className="box">
                   <Link

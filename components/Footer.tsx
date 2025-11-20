@@ -39,8 +39,8 @@ export default function Footer() {
                   </figure>
                 </Link>
                 <p className="text-size-18 footer-text">
-                  Your trusted partner for comprehensive IT network solutions—delivering strategic
-                  consultation, enterprise-grade implementation, and continuous support.
+                  Professional network infrastructure installation and IT services—serving businesses
+                  throughout the Bay Area with hands-on expertise and reliable workmanship.
                 </p>
                 <div className="lower">
                   <div className="lower-content">
