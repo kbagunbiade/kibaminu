@@ -274,7 +274,7 @@ export default function About() {
               </div>
             </div>
           </div>
-          <div className="achievement_wrapper">
+          <div className="achievement_wrapper d-none">
             <div className="row">
               <figure className="offer-circleimage mb-0">
                 <Image
