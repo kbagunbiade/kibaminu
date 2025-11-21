@@ -95,6 +95,7 @@ export default function About() {
                     alt=""
                     width={400}
                     height={500}
+                    style={{ objectFit: 'cover', objectPosition: 'center' }}
                   />
                 </figure>
                 <figure className="mb-0 aboutus-image2">
@@ -106,21 +107,7 @@ export default function About() {
                     height={350}
                   />
                 </figure>
-                <div className="image-circle">
-                  <div className="years">
-                    <span className="text-white value counter">10</span>
-                    <sup className="text-white mb-0 plus">+</sup>
-                    <span className="text-white text">Years of Experience</span>
-                  </div>
-                  <figure className="mb-0 about-imagecircle">
-                    <Image
-                      src="/assets/images/about-imagecircle.png"
-                      alt=""
-                      width={200}
-                      height={200}
-                    />
-                  </figure>
-                </div>
+
               </div>
             </div>
             <div className="col-lg-6 col-md-12 col-sm-12 col-12 order-lg-2 order-1">
