@@ -19,10 +19,18 @@ body {
   color: var(--e-global-color-light-white);
 }
 
-.banner-section {
-  padding: 102px 200px 290px 246px;
+@media (min-width: 768px) {
+  .banner-section {
+    padding: 102px 200px 290px 246px;
+  }
 }
 
 .banner-section .banner_wrapper .banner-image {
   top: -65px;
+}
+
+@media only screen and (max-width: 767px) {
+  .banner-section .banner_wrapper .banner-image {
+    top: -30px;
+  }
 }

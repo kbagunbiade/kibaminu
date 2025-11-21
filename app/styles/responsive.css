@@ -559,19 +559,20 @@ button:focus { outline: none;}
 .navbar-nav .drop-down-pages .nav-item a { padding: 8px 20px!important;}
 .navbar li {margin: 0 !important; padding: 0;}
 .last_list {display: none;}
-.banner-section {padding: 40px 52px 165px;}
+.banner-section {padding: 40px 20px 165px;}
 .banner-section .banner_content {text-align: center;}
 .banner-section .social-icons ul {left: -48px; top: 58px;}
 .banner-section .banner_content .banner-line {left: 180px;}
 .banner-section .banner_content h6 { margin-bottom: 4px;}
 .banner-section .banner_content h1 {margin-bottom: 5px;}
-.banner-section .banner_content p {font-size: 16px; line-height: 22px; padding: 0 80px; margin-bottom: 25px;}
+.banner-section .banner_content p {font-size: 16px; line-height: 22px; padding: 0 20px; margin-bottom: 25px;}
 .banner-section .banner_content .get_started {font-size: 16px; line-height: 24px; padding: 10px 16px;}
 .banner-section .banner_content .button2 figure {margin-left: 8px;}
+.banner-section .banner_content .box {margin-bottom: 40px;}
 .banner-section .banner_content .banner-circleleft {display: none;}
 .banner-section .banner_content .banner-dotleft {left: 50px; bottom: -78px;}
 .banner-section .banner_wrapper {text-align: center;}
-.banner-section .banner_wrapper .banner-image {position: relative; right: -6px; top: 94px;}
+.banner-section .banner_wrapper .banner-image {position: relative; right: -6px; top: 120px;}
 .banner-section .banner_wrapper .banner-image img {width: 465px;}
 .banner-section .banner_wrapper .banner-vedioimage {top: -326px; left: 92px;}
 .banner-section .banner_wrapper .banner-circleright {right: 0; top: 290px;}
@@ -890,17 +891,18 @@ h4 {font-size: 16px; line-height: 20px;}
 .navbar-collapse {width: 40%; top: 70px;}
 .navbar {padding: 20px 0;}
 .banner_outer .banner-backgroundup {left: -464px;}
-.banner-section {padding: 35px 0 156px;}
+.banner-section {padding: 35px 15px 156px;}
 .banner-section .social-icons ul {display: none;}
 .banner-section .banner_content .banner-line {left: 145px;}
 .banner-section .banner_content .banner-line img {width: 44px;}
 .banner-section .banner_content h6 {padding-left: 68px;}
-.banner-section .banner_content h1 {margin-bottom: 0; padding: 0 30px;}
-.banner-section .banner_content p {margin-bottom: 20px;}
+.banner-section .banner_content h1 {margin-bottom: 0; padding: 0 10px;}
+.banner-section .banner_content p {margin-bottom: 20px; padding: 0 10px;}
 .banner-section .banner_content .get_started {font-size: 14px; line-height: 20px; padding: 10px 24px;}
 .banner-section .banner_content .get_started figure {margin-left: 4px;}
 .banner-section .banner_content .get_started figure img{width: 16px;}
-.banner-section .banner_wrapper .banner-image {right: 4px; top: 96px;}
+.banner-section .banner_content .box {margin-bottom: 50px;}
+.banner-section .banner_wrapper .banner-image {right: 4px; top: 140px;}
 .banner-section .banner_wrapper .banner-image img {width: 430px; border-radius: 160px 160px 0 160px;}
 .banner-section .banner_wrapper .banner-vedioimage {top: -286px; left: 50px;}
 .banner-section .banner_wrapper .banner-vedioimage img {width: 90px;}
@@ -1185,15 +1187,16 @@ p {font-size: 14px; line-height: 20px;}
 .navbar-collapse {width: 62%; top: 74px;}
 .navbar { padding: 25px 0;}
 .navbar-brand figure img {width: 150px;}
-.banner-section {padding: 30px 0 110px;}
+.banner-section {padding: 30px 15px 110px;}
 .banner-section .banner_content .banner-line {display: none;}
 .banner-section .banner_content h6 {padding-left: 0;}
 .banner-section .banner_content h1 {padding: 0; margin-bottom: 6px;}
 .banner-section .banner_content p {font-size: 14px; line-height: 20px; padding: 0;}
 .banner-section .banner_content .get_started {padding: 8px 15px;}
 .banner-section .banner_content .button1 {margin-right: 3px;}
+.banner-section .banner_content .box {margin-bottom: 60px;}
 .banner-section .banner_content .banner-dotleft {display: none;}
-.banner-section .banner_wrapper .banner-image {right: -12px; top: 50px;}
+.banner-section .banner_wrapper .banner-image {right: -12px; top: 120px;}
 .banner-section .banner_wrapper .banner-image img {width: 300px; border-radius: 110px 110px 0 110px;}
 .banner-section .banner_wrapper .banner-vedioimage {top: -232px; left: 14px;}
 .banner-section .banner_wrapper .banner-vedioimage img {width: 80px;}

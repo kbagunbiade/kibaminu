@@ -39,7 +39,7 @@ export default function Hero() {
                   and the Bay Area. From low voltage cabling and CCTV systems to server room setup
                   and POS installations—we deliver hands-on expertise that keeps your business connected.
                 </p>
-                <div className="box d-flex gap-3">
+                <div className="box d-flex gap-3 justify-content-center justify-content-start d-md-flex justify-content-md-start">
                   <Link
                     className="get_started text-white text-decoration-none"
                     href="/services"
