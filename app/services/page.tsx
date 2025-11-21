@@ -11,8 +11,28 @@ const servicesData = [
   },
   {
     icon: '/assets/images/service-producticon.png',
-    title: 'CCTV & Surveillance Installation',
-    description: 'End-to-end security camera systems including IP cameras, NVR/DVR setup, remote viewing configuration, and ongoing maintenance for complete property protection.',
+    title: 'CCTV & Surveillance Systems',
+    description: 'End-to-end security camera systems including IP cameras, NVR/DVR setup, access control integration, remote viewing configuration, and ongoing maintenance for complete property protection.',
+  },
+  {
+    icon: '/assets/images/service-designicon.png',
+    title: 'Access Control & Security Systems',
+    description: 'Advanced keycard systems, biometric readers, electronic door locks, visitor management, and integrated security solutions—controlling access and protecting your facility.',
+  },
+  {
+    icon: '/assets/images/service-dataicon.png',
+    title: 'Network Security Solutions',
+    description: 'Firewall deployment, VPN configuration, intrusion detection systems, security audits, and network hardening—safeguarding your infrastructure from threats and vulnerabilities.',
+  },
+  {
+    icon: '/assets/images/service-marketicon.png',
+    title: 'Server Room Setup & Racking',
+    description: 'Professional server room design, equipment racking and stacking, cable management, power distribution, and environmental controls—building reliable data center infrastructure.',
+  },
+  {
+    icon: '/assets/images/service-producticon.png',
+    title: 'IoT Solutions & Smart Building',
+    description: 'Internet of Things implementation, sensor networks, building automation systems, environmental monitoring, and connected device integration for intelligent facility management.',
   },
   {
     icon: '/assets/images/service-designicon.png',
@@ -21,16 +41,26 @@ const servicesData = [
   },
   {
     icon: '/assets/images/service-dataicon.png',
-    title: 'Server Room Setup & Racking',
-    description: 'Professional server room design, equipment racking and stacking, cable management, power distribution, and environmental controls—building reliable data center infrastructure.',
-  },
-  {
-    icon: '/assets/images/service-marketicon.png',
     title: 'POS & Business System Installation',
     description: 'Point-of-sale system deployment, network configuration, payment terminal setup, receipt printer installation, and staff training for retail and restaurant operations.',
   },
   {
+    icon: '/assets/images/service-marketicon.png',
+    title: 'IT Asset & Project Management',
+    description: 'Hardware inventory tracking, lifecycle management, equipment procurement, vendor coordination, and complete project management for IT infrastructure deployments and upgrades.',
+  },
+  {
     icon: '/assets/images/service-producticon.png',
+    title: 'Technical Support & Helpdesk',
+    description: 'Remote and onsite technical assistance, software troubleshooting, ticketing system support, user training, and ongoing helpdesk services—keeping your team productive.',
+  },
+  {
+    icon: '/assets/images/service-designicon.png',
+    title: 'Onsite IT Services',
+    description: 'Dedicated onsite technicians for installations, maintenance, hardware deployment, network configuration, and technical support—bringing expertise directly to your location.',
+  },
+  {
+    icon: '/assets/images/service-dataicon.png',
     title: 'Network & Hardware Troubleshooting',
     description: 'On-site diagnostics and repair for network issues, computer problems, hardware failures, and equipment replacement—getting your systems back online fast.',
   },

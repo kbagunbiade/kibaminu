@@ -137,7 +137,7 @@ export default function About() {
                 <h6>About Us</h6>
                 <h2>Built on Expertise, Proven in the Field</h2>
                 <p>
-                  KibAminu Technology Solutions delivers professional network infrastructure installation
+                  KibAminu LLC delivers professional network infrastructure installation
                   and IT services throughout the Bay Area. From structured cabling and security systems to
                   server room buildouts and troubleshooting—we bring hands-on technical expertise and a
                   commitment to quality workmanship on every project.
@@ -195,7 +195,7 @@ export default function About() {
                 <h6>Our Story</h6>
                 <h2>Built on Skill, Driven by Quality</h2>
                 <p className="mx-auto" style={{ maxWidth: '800px' }}>
-                  Founded in Hayward, California, KibAminu Technology Solutions was built on a simple
+                  Founded in Hayward, California, KibAminu LLC was built on a simple
                   principle: do the work right, every time. Our co-founders brought together decades of
                   hands-on experience in network infrastructure, cabling, and IT installations—creating
                   a company that businesses trust for professional, reliable service. From low voltage
@@ -220,28 +220,32 @@ export default function About() {
           <div className="row mb-5">
             <div className="col-lg-6 col-md-12 col-sm-12 col-12 mb-4" data-aos="fade-right">
               <div className="service_content">
-                <h4>Kolapo Kiba</h4>
+                <h4>Kolapo "Kiba" Agunbiade</h4>
                 <h6 className="text-secondary">Co-Founder & Technical Lead</h6>
                 <p>
-                  Clients trust Kiba to listen first, solve second. His people-first mentality combined
-                  with deep technical acumen makes him a trusted ally for organizations navigating the
-                  digital landscape. Based in Hayward, Kiba prides himself on building partnerships, not
-                  just connections, ensuring every solution is tailored, future-proof, and delivered with
-                  integrity. He's committed to making enterprise-level IT solutions accessible to businesses
-                  of all sizes.
+                  With over a decade of hands-on experience in network infrastructure and IT installations,
+                  Kiba leads KibAminu's technical operations with precision and expertise. Based in Hayward,
+                  he orchestrates a network of specialized independent contractors, bringing together the
+                  right talent for every project—from complex server room buildouts to multi-site cabling
+                  installations. His approach is simple: listen first, engineer second. Clients trust him
+                  to deliver enterprise-grade solutions with the attention and integrity of a true partner.
+                  Every installation is executed right the first time, every system is built to last.
                 </p>
               </div>
             </div>
             <div className="col-lg-6 col-md-12 col-sm-12 col-12 mb-4" data-aos="fade-left">
               <div className="service_content">
-                <h4>Aminu Osaz</h4>
+                <h4>Aminu "Osaz" Isegen</h4>
                 <h6 className="text-secondary">Co-Founder & Strategic Director</h6>
                 <p>
-                  IT is more than infrastructure—it's the foundation of business growth. Known
-                  for his approachable demeanor and unrelenting work ethic, he's the steady hand guiding
-                  clients through digital transformation. He believes that by fostering lasting relationships
-                  and delivering unwavering support, their company will set a new gold standard for network
-                  IT solutions from Hayward outward.
+                  Aminu transforms complex IT projects into seamless executions. As KibAminu's Strategic
+                  Director, he coordinates project management, client relationships, and the company's
+                  network of independent contractors—ensuring every installation is delivered on time,
+                  within scope, and beyond expectations. His methodology combines approachable communication
+                  with relentless attention to detail, turning infrastructure challenges into business
+                  advantages. From procurement to final deployment, he orchestrates every moving part
+                  with precision, building lasting partnerships that drive real results. In the Bay Area's
+                  competitive IT landscape, Aminu delivers the reliability businesses depend on.
                 </p>
               </div>
             </div>

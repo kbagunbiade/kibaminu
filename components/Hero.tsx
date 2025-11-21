@@ -32,7 +32,7 @@ export default function Hero() {
                     height={2}
                   />
                 </figure>
-                <h6>Welcome to KibAminu Technology Solutions</h6>
+                <h6>Welcome to KibAminu LLC</h6>
                 <h1>Your Network, Our Mission</h1>
                 <p>
                   Professional network infrastructure installation and IT services serving Hayward

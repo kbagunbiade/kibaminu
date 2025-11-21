@@ -32,7 +32,7 @@ export default function Footer() {
                     <Image
                       src="/assets/images/image-preview-3.png"
                       className="img-fluid"
-                      alt="KibAminu Technology Solutions"
+                      alt="KibAminu LLC"
                       width={150}
                       height={65}
                     />
@@ -173,7 +173,7 @@ export default function Footer() {
             <div className="row copyright-border">
               <div className="col-lg-6 col-md-6 col-sm-12 co-12 column">
                 <p className="text-size-16">
-                  Copyright ©2025 KibAminu Technology Solutions. All Rights Reserved
+                  Copyright ©2025 KibAminu LLC. All Rights Reserved
                 </p>
               </div>
               <div className="col-lg-6 col-md-6 col-sm-12 co-12 d-md-block d-none">

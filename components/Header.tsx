@@ -16,7 +16,7 @@ export default function Header() {
               <figure className="mb-0 banner-logo">
                 <Image
                   src="/assets/images/image-preview-3.png"
-                  alt="KibAminu Technology Solutions"
+                  alt="KibAminu LLC"
                   width={150}
                   height={65}
                   className="img-fluid"

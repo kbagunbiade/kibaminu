@@ -5,22 +5,22 @@ const services = [
   {
     icon: '/assets/images/service-marketicon.png',
     title: 'Network Infrastructure & Cabling',
-    description: 'Complete low voltage cabling, structured wiring, and network installation—from Cat5e/Cat6 runs to fiber optics and patch panel terminations.',
+    description: 'Complete low voltage cabling, structured wiring, IoT integration, and network installation—from Cat5e/Cat6 runs to fiber optics and smart building connectivity.',
   },
   {
     icon: '/assets/images/service-producticon.png',
-    title: 'CCTV & Security Systems',
-    description: 'Professional security camera installation, IP surveillance systems, and monitoring solutions—protecting your property with clarity and reliability.',
+    title: 'Security & Access Control',
+    description: 'Professional CCTV installation, IP surveillance systems, access control solutions, network security, and integrated monitoring—protecting your property with advanced technology.',
   },
   {
     icon: '/assets/images/service-designicon.png',
     title: 'Server Room & IT Infrastructure',
-    description: 'Server room design, equipment racking and stacking, network engineering, and complete IT infrastructure deployment for businesses of all sizes.',
+    description: 'Server room design, equipment racking and stacking, network engineering, asset management, and complete IT project management for seamless infrastructure deployment.',
   },
   {
     icon: '/assets/images/service-dataicon.png',
-    title: 'On-Site IT Support & Troubleshooting',
-    description: 'Hands-on hardware and network troubleshooting, POS system setup, equipment replacement, and ongoing technical support when you need it most.',
+    title: 'Technical Support & Onsite Services',
+    description: 'Comprehensive helpdesk support, onsite technicians, hardware troubleshooting, POS system setup, equipment procurement, and hands-on technical assistance when you need it most.',
   },
 ];
 
