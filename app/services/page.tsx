@@ -148,15 +148,7 @@ export default function Services() {
             height={400}
           />
         </figure>
-        <figure className="service-dotimage mb-0">
-          <Image
-            src="/assets/images/service-dotimage.png"
-            alt=""
-            className="img-fluid"
-            width={200}
-            height={200}
-          />
-        </figure>
+
         <div className="container">
           <div className="row">
             <div className="col-12">

@@ -91,7 +91,7 @@ export default function About() {
               <div className="about_wrapper">
                 <figure className="mb-0 aboutus-image1">
                   <Image
-                    src="/assets/images/aboutus-image1.jpg"
+                    src="/assets/images/aboutus-image-1.jpg"
                     alt=""
                     width={400}
                     height={500}
@@ -99,7 +99,7 @@ export default function About() {
                 </figure>
                 <figure className="mb-0 aboutus-image2">
                   <Image
-                    src="/assets/images/aboutus-image2.jpg"
+                    src="/assets/images/aboutus-image-2.jpg"
                     alt=""
                     className="img-fluid"
                     width={300}
