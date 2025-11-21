@@ -733,21 +733,26 @@ a.item-link{margin-top: 10px; display: inline-block}
 
 
 
+/* Header Controls Wrapper */
+.header-controls {
+  margin-left: auto;
+  gap: 12px;
+}
+
 /* Theme Toggle Button */
 .theme-toggle-btn {
   background: transparent;
   border: 2px solid var(--e-global-color-secondary);
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   transition: all 0.3s ease;
   padding: 0;
-  margin-left: auto;
-  margin-right: 20px;
+  flex-shrink: 0;
 }
 
 .theme-toggle-btn:hover {
@@ -756,8 +761,8 @@ a.item-link{margin-top: 10px; display: inline-block}
 }
 
 .theme-icon {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   color: var(--e-global-color-secondary);
   transition: color 0.3s ease;
 }
@@ -768,14 +773,16 @@ a.item-link{margin-top: 10px; display: inline-block}
 
 @media (max-width: 991px) {
   .theme-toggle-btn {
-    margin-left: auto;
-    margin-right: 15px;
-    width: 35px;
-    height: 35px;
+    width: 32px;
+    height: 32px;
   }
 
   .theme-icon {
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
+  }
+
+  .header-controls {
+    gap: 10px;
   }
 }

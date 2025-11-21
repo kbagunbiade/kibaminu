@@ -539,8 +539,8 @@ p {font-size: 16px; line-height: 20px;}
 .navbar {padding: 25px 0;}
 .navbar-nav {padding-left: 0;} 
 .navbar-collapse {background: var(--e-global-color-white); position: absolute; right: 0px; width: 30%; top: 70px; z-index: 16; padding: 0; box-shadow: 1px 1px 57px rgba(0 0 0 / 7%);}
-.navbar-toggler {margin-left: auto; border: none !important; padding: 0; width: 30px; height: 22px;}
-.navbar-light .navbar-toggler-icon { background: var(--e-global-color-white); height: 2px; margin: 7px 0 0 0; width: 100%; float: right;}
+.navbar-toggler {border: none !important; padding: 0; width: 24px; height: 18px;}
+.navbar-light .navbar-toggler-icon { background: var(--e-global-color-white); height: 2px; margin: 6px 0 0 0; width: 100%; float: right;}
 .navbar-toggler.collapsed span:nth-child(1) {transform: rotate(0deg);}
 .navbar-toggler span.navbar-toggler-icon:first-child {margin-top: 0;}
 .navbar-toggler span:nth-child(1) {transform: rotate(45deg); transform-origin: 0% 80%;}

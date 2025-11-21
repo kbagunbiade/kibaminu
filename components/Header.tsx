@@ -100,22 +100,22 @@ export default function Header() {
               </div>
             </div>
 
-            {/* Theme Toggle */}
-            <ThemeToggle />
-
-            {/* Mobile Menu Button */}
-            <button
-              className={`navbar-toggler d-lg-none ${isOpen ? '' : 'collapsed'}`}
-              type="button"
-              onClick={() => setIsOpen(!isOpen)}
-              aria-controls="mobileMenu"
-              aria-expanded={isOpen}
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
-              <span className="navbar-toggler-icon"></span>
-              <span className="navbar-toggler-icon"></span>
-            </button>
+            {/* Header Controls - Theme Toggle + Menu */}
+            <div className="header-controls d-flex align-items-center gap-3">
+              <ThemeToggle />
+              <button
+                className={`navbar-toggler d-lg-none ${isOpen ? '' : 'collapsed'}`}
+                type="button"
+                onClick={() => setIsOpen(!isOpen)}
+                aria-controls="mobileMenu"
+                aria-expanded={isOpen}
+                aria-label="Toggle navigation"
+              >
+                <span className="navbar-toggler-icon"></span>
+                <span className="navbar-toggler-icon"></span>
+                <span className="navbar-toggler-icon"></span>
+              </button>
+            </div>
 
             {/* Full-Screen Overlay Menu */}
             <div
