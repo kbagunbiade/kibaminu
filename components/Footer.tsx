@@ -25,7 +25,7 @@ export default function Footer() {
         </figure>
         <div className="middle-portion">
           <div className="row">
-            <div className="col-lg-4 col-md-5 col-sm-6 col-12">
+            <div className="col-lg-3 col-md-3 col-sm-6 col-12">
               <div className="first-column">
                 <Link href="/">
                   <figure className="footer-logo">
@@ -38,109 +38,58 @@ export default function Footer() {
                     />
                   </figure>
                 </Link>
-                <p className="text-size-18 footer-text">
+                <p className="text-size-18 footer-text position-relative">
                   Professional network infrastructure installation and IT services—serving businesses
                   throughout the Bay Area with hands-on expertise and reliable workmanship.
                 </p>
-                <div className="lower">
-                  <div className="lower-content">
-                    <figure className="icon">
-                      <Image
-                        src="/assets/images/footer-callicon.png"
-                        alt=""
-                        className="img-fluid"
-                        width={30}
-                        height={30}
-                      />
-                    </figure>
-                    <div className="content">
-                      <span className="text-white">Call us:</span>
-                      <a
-                        className="text-size-18 mb-0 text text-decoration-none"
-                        href="tel:+16619042936"
-                      >
-                        +1 (661) 904-2936
-                      </a>
-                    </div>
+
+              </div>
+            </div>
+            <div className="col-lg-4 offset-lg-1 offset-md-1 col-md-4 col-sm-12 col-12">
+              <div className="lower d-flex flex-column gap-4">
+                <div className="lower-content d-flex position-relative">
+                  <figure className="icon">
+                    <Image
+                      src="/assets/images/footer-callicon.png"
+                      alt=""
+                      className="img-fluid"
+                      width={30}
+                      height={30}
+                    />
+                  </figure>
+                  <div className="content">
+                    <span className="text-white">Call us:</span>
+                    <a
+                      className="text-size-18 mb-0 text text-decoration-none"
+                      href="tel:+16619042936"
+                    >
+                      +1 (661) 904-2936
+                    </a>
                   </div>
-                  <div className="lower-content">
-                    <figure className="icon">
-                      <Image
-                        src="/assets/images/footer-emailicon.png"
-                        alt=""
-                        className="img-fluid"
-                        width={30}
-                        height={30}
-                      />
-                    </figure>
-                    <div className="content">
-                      <span className="text-white">Email us:</span>
-                      <a
-                        href="mailto:admin@kibaminutechsolutions.com"
-                        className="text-size-18 mb-0 text-decoration-none"
-                      >
-                        admin@kibaminutechsolutions.com
-                      </a>
-                    </div>
+                </div>
+                <div className="lower-content d-none d-md-flex position-relative">
+                  <figure className="icon">
+                    <Image
+                      src="/assets/images/footer-emailicon.png"
+                      alt=""
+                      className="img-fluid"
+                      width={30}
+                      height={30}
+                    />
+                  </figure>
+                  <div className="content">
+                    <span className="text-white">Email us:</span>
+                    <a
+                      href="mailto:admin@kibaminutechsolutions.com"
+                      className="text-size-18 mb-0 text-decoration-none"
+                    >
+                      admin@kibaminutechsolutions.com
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-2 col-md-3 col-sm-12 col-12 d-md-block d-none">
-              <div className="links list-pd">
-                <h4 className="heading text-white">Quick Links</h4>
-                <ul className="list-unstyled mb-0">
-                  <li>
-                    <Link href="/" className="text-size-18 text text-decoration-none">
-                      Home
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/about" className="text-size-18 text text-decoration-none">
-                      About
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services" className="text-size-18 text text-decoration-none">
-                      Services
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/contact" className="text-size-18 text text-decoration-none">
-                      Contact
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-2 col-sm-12 col-12 d-lg-block d-none">
-              <div className="links">
-                <h4 className="heading text-white">Our Services</h4>
-                <ul className="list-unstyled mb-0">
-                  <li>
-                    <Link href="/services" className="text-size-18 text text-decoration-none">
-                      Network Infrastructure
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services" className="text-size-18 text text-decoration-none">
-                      Cloud Solutions
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services" className="text-size-18 text text-decoration-none">
-                      Security Consulting
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services" className="text-size-18 text text-decoration-none">
-                      IT Support
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-4 col-sm-6 col-12 d-sm-block d-none">
+            <div className="col-lg-4 col-md-4 col-sm-6 col-12 d-sm-block d-none position-relative">
               <div className="icons">
                 <h4 className="heading mb-0 text-white">Subscribe to</h4>
                 <h4 className="heading text-white">Our Newsletter Today!</h4>
@@ -168,7 +117,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="copyright">
+        <div className="copyright mt-md-0 mt-3">
           <div className="container">
             <div className="row copyright-border">
               <div className="col-lg-6 col-md-6 col-sm-12 co-12 column">

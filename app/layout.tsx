@@ -5,10 +5,11 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import "./globals.css";
+import { ThemeProvider } from '@/components/ThemeProvider';
 
 export const metadata: Metadata = {
-  title: "Kiba Aminu | IT Network Computing Consultation",
-  description: "Professional IT network computing consultation services",
+  title: "KibAminu LLC | Network Infrastructure & IT Services",
+  description: "Professional network infrastructure installation and IT services throughout the Bay Area. From low voltage cabling and CCTV to server rooms and IT support.",
 };
 
 export default function RootLayout({
@@ -17,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <link
           rel="stylesheet"
@@ -25,7 +26,9 @@ export default function RootLayout({
         />
       </head>
       <body>
-        {children}
+        <ThemeProvider>
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

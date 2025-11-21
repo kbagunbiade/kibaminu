@@ -326,9 +326,9 @@ p {font-size: 18px; line-height: 28px;}
 .blog-section .owl-carousel .owl-dots {margin-top: 30px !important;}
 .blog-section .owl-carousel .owl-dots .owl-dot span {width: 13px; height: 13px;}
 .blog-section .owl-carousel .owl-dots .owl-dot.active span {width: 16px; height: 16px;}
-.footer-section {padding: 110px 0 0;}
-.footer-section::before {height: 472px;}
-.footer-section .middle-portion {margin-bottom: 40px;}
+.footer-section {padding: 60px 0 0;}
+.footer-section::before {height: 340px;}
+.footer-section .middle-portion {margin-bottom: 20px;}
 .footer-section .middle-portion .first-column p {margin-bottom: 12px;}
 .footer-section .middle-portion .lower .icon {top: 0; margin-bottom: 10px;}
 .footer-section .middle-portion .lower .content {padding-left: 0;}
@@ -336,7 +336,7 @@ p {font-size: 18px; line-height: 28px;}
 .footer-section .middle-portion .links h4 {margin-bottom: 14px;}
 .footer-section .middle-portion .list-pd {padding-left: 26px;}
 .footer-section .middle-portion .links {margin-left: -20px;}
-.footer-section .middle-portion .icons {padding-left: 40px; margin-right: 0;}
+.footer-section .middle-portion .icons {padding-left: 15px; margin-right: 0;}
 .footer-section .middle-portion .icons h4 {margin-bottom: 4px;}
 .footer-section .middle-portion .icons p {margin-bottom: 10px;}
 .footer-section .middle-portion .icons input {padding: 14px 20px; margin-bottom: 15px;}
@@ -344,7 +344,7 @@ p {font-size: 18px; line-height: 28px;}
 .footer-section .middle-portion .icons .subscribe_now .circle:before {font-size: 18px; margin-left: 6px;}
 .footer-section .copyright {padding: 20px 0;}
 .footer-section .copyright .social-icons ul li .social-networks {font-size: 14px; width: 35px; height: 35px; line-height: 35px;}
-.footer-section .copyright .social-icons {right: 138px;}
+.footer-section .copyright .social-icons {right: 0;}
 /* Sub-banner */
 .sub-banner .header {padding: 0px 20px;}
 .navbar-nav li:last-child {margin-left: 18px;}
@@ -700,9 +700,16 @@ button:focus { outline: none;}
 .blog-section .owl-carousel .owl-dots .owl-dot.active span {width: 13px; height: 13px;}
 .blog-section .owl-carousel .owl-dots {margin-top: 25px !important;}
 .blog-section .owl-carousel .owl-dots .owl-dot span {margin: 0 4px;}
-.footer-section {padding: 80px 0 0;}
+.footer-section {padding: 50px 0 0;}
 .footer-section::before {height: 100%; width: 100%; border-radius: 0;}
-.footer-section .middle-portion {margin-bottom: 30px;}
+.footer-section .middle-portion {margin-bottom: 0;}
+.footer-section .middle-portion .row {
+  row-gap: 10px;
+  margin-bottom: 0;
+}
+.footer-section .middle-portion .first-column {
+  margin-bottom: 10px;
+}
 .footer-section .middle-portion .footer-logo {margin-bottom: 0;}
 .footer-section .middle-portion .lower .content span {font-size: 16px; line-height: 24px; margin-bottom: 4px;}
 .footer-section .middle-portion .lower .icon {margin-bottom: 8px;}
@@ -712,10 +719,10 @@ button:focus { outline: none;}
 .footer-section .middle-portion .links li a {padding-left: 16px;}
 .footer-section .middle-portion .links li a:before {top: 0px; font-size: 24px; line-height: 24px;}
 .footer-section .middle-portion .links li {margin-bottom: 2px;}
-.footer-section .middle-portion .icons input {padding: 10px 18px; margin-bottom: 12px;}
-.footer-section .middle-portion .icons .subscribe_now {font-size: 16px; line-height: 22px; padding: 9px 20px;}
+.footer-section .middle-portion .icons input {padding: 10px 18px; margin-bottom: 12px; width: 100%;}
+.footer-section .middle-portion .icons .subscribe_now {font-size: 16px; line-height: 22px; padding: 9px 20px; width: 100%;}
 .footer-section .middle-portion .icons .subscribe_now .circle:before {font-size: 16px;}
-.footer-section .copyright {padding: 16px 0; width: 100%;}
+.footer-section .copyright {padding: 10px 0; width: 100%;}
 .footer-section .copyright .social-icons {top: -4px;}
 /* Sub-banner */
 .sub-banner .sub-bannerleftlayer img {width: 120px;}
@@ -1008,17 +1015,23 @@ h4 {font-size: 16px; line-height: 20px;}
 .blog-section .owl-carousel .owl-dots .owl-dot.active span {width: 10px; height: 10px;}
 .blog-section .owl-carousel .owl-dots {margin-top: 20px !important;}
 .blog-section .owl-carousel .owl-dots .owl-dot span {margin: 0 3px;}
-.footer-section {padding: 70px 0 0;}
+.footer-section {padding: 40px 0 0;}
 .footer-section .middle-portion .icons p {margin-bottom: 14px;}
 .footer-section .middle-portion .first-column p {margin-bottom: 16px;}
 .footer-section .middle-portion .lower .icon img {width: 28px;}
 .footer-section .middle-portion .lower .icon {margin-bottom: 10px;}
+.footer-section .middle-portion .row {
+  row-gap: 5px;
+}
+.footer-section .middle-portion .first-column {
+  margin-bottom: 8px;
+}
 .footer-section .middle-portion .icons h4 {font-size: 18px; line-height: 22px; margin-bottom: 8px; margin-right: 34px;}
-.footer-section .middle-portion .icons .subscribe_now {font-size: 14px; line-height: 20px; padding: 8px 14px; width: 80%;}
+.footer-section .middle-portion .icons .subscribe_now {font-size: 14px; line-height: 20px; padding: 8px 14px; width: 100%;}
 .footer-section .middle-portion .icons .subscribe_now .circle:before {font-size: 14px;}
-.footer-section .middle-portion .icons input {padding: 8px 16px; margin-bottom: 12px; width: 80%;}
+.footer-section .middle-portion .icons input {padding: 8px 16px; margin-bottom: 12px; width: 100%;}
 .footer-section .copyright p {margin-right: 0;}
-.footer-section .copyright {padding: 12px 0; text-align: center;}
+.footer-section .copyright {padding: 6px 0; text-align: center;}
 /* Sub-banner */
 .sub-banner .sub-bannerleftlayer img {width: 88px;}
 .sub-banner .sub-bannerrightlayer img {width: 130px;}
@@ -1256,8 +1269,8 @@ p {font-size: 14px; line-height: 20px;}
 .blog-section .blog_boxcontent .lower_portion_wrapper {padding: 48px 26px 15px;}
 .blog-section .blog_boxcontent .lower_portion_wrapper h4 {margin-bottom: 8px;}
 .blog-section .blog_boxcontent .lower_portion_wrapper p {margin-bottom: 8px;}
-.footer-section .middle-portion {text-align: center;}
-.footer-section .middle-portion .first-column p {margin-bottom: 35px;}
+.footer-section .middle-portion {text-align: left;}
+.footer-section .middle-portion .first-column p {margin-bottom: 20px;}
 .footer-section .middle-portion .lower .icon {top: 12px; margin-bottom: 0;}
 .footer-section .middle-portion .lower .content {padding-left: 10px;}
 .footer-section .middle-portion .lower .content .text {margin-right: 20px;}

@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
+import ThemeToggle from './ThemeToggle';
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -82,6 +83,7 @@ export default function Header() {
                 </div>
               </div>
             </div>
+            <ThemeToggle />
           </nav>
         </div>
       </div>

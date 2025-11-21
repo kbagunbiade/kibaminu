@@ -14,3 +14,7 @@ body {
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.footer-section .middle-portion .first-column p {
+  color: var(--e-global-color-light-white);
+}

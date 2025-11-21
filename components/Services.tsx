@@ -5,22 +5,22 @@ const services = [
   {
     icon: '/assets/images/service-marketicon.png',
     title: 'Network Infrastructure & Cabling',
-    description: 'Complete low voltage cabling, structured wiring, IoT integration, and network installation—from Cat5e/Cat6 runs to fiber optics and smart building connectivity.',
+    description: 'Low voltage cabling, structured wiring, and network installation from Cat5e/Cat6 to fiber optics.',
   },
   {
     icon: '/assets/images/service-producticon.png',
     title: 'Security & Access Control',
-    description: 'Professional CCTV installation, IP surveillance systems, access control solutions, network security, and integrated monitoring—protecting your property with advanced technology.',
+    description: 'CCTV installation, surveillance systems, access control solutions, and network security.',
   },
   {
     icon: '/assets/images/service-designicon.png',
     title: 'Server Room & IT Infrastructure',
-    description: 'Server room design, equipment racking and stacking, network engineering, asset management, and complete IT project management for seamless infrastructure deployment.',
+    description: 'Server room design, equipment racking and stacking, network engineering, management.',
   },
   {
     icon: '/assets/images/service-dataicon.png',
-    title: 'Technical Support & Onsite Services',
-    description: 'Comprehensive helpdesk support, onsite technicians, hardware troubleshooting, POS system setup, equipment procurement, and hands-on technical assistance when you need it most.',
+    title: 'Onsite Technical Support',
+    description: 'Helpdesk, onsite technicians, hardware troubleshooting, and hands-on technical assistance.',
   },
 ];
 
@@ -36,15 +36,7 @@ export default function Services() {
           height={400}
         />
       </figure>
-      <figure className="service-dotimage mb-0">
-        <Image
-          src="/assets/images/service-dotimage.png"
-          alt=""
-          className="img-fluid"
-          width={200}
-          height={200}
-        />
-      </figure>
+
       <div className="container">
         <div className="row">
           <div className="col-12">
