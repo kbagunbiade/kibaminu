@@ -1371,3 +1371,83 @@ p {font-size: 14px; line-height: 20px;}
 .contact-section .contact-box figure {margin-left: 0;}
 .contact-section .need_content {padding: 26px 20px; width: 100%;}
 }
+
+/* ===================================
+   Overlay Menu Responsive Styles
+   =================================== */
+
+/* Tablet and below */
+@media only screen and (max-width: 991px) {
+  .overlay-nav-link {
+    font-size: 28px;
+  }
+
+  .overlay-menu-content {
+    padding: 25px;
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .overlay-nav-link {
+    font-size: 24px;
+    padding: 8px 16px;
+  }
+
+  .overlay-menu-content {
+    padding: 20px;
+  }
+
+  .overlay-menu-header {
+    padding-bottom: 20px;
+  }
+
+  .overlay-footer {
+    padding-top: 20px;
+    gap: 15px;
+  }
+
+  .overlay-contact-link {
+    font-size: 16px;
+  }
+}
+
+/* Small mobile */
+@media only screen and (max-width: 575px) {
+  .overlay-nav-link {
+    font-size: 22px;
+    gap: 15px;
+  }
+
+  .overlay-menu-content {
+    padding: 20px 15px;
+  }
+
+  .overlay-nav {
+    gap: 15px;
+  }
+
+  .overlay-contact-link {
+    font-size: 14px;
+  }
+
+  .overlay-contact-label {
+    font-size: 12px;
+  }
+
+  .overlay-logo img {
+    width: 100px !important;
+    height: auto !important;
+  }
+}
+
+/* Hide overlay menu on desktop (show regular menu instead) */
+@media only screen and (min-width: 992px) {
+  .overlay-menu {
+    display: none !important;
+  }
+
+  .navbar-toggler {
+    display: none !important;
+  }
+}
