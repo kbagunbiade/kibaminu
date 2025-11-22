@@ -6,6 +6,21 @@ import Link from 'next/link';
 const servicesData = [
   {
     icon: '/assets/images/service-marketicon.png',
+    title: 'Telecommunications (Telco) Services',
+    description: 'Reliable telecommunications solutions for seamless connectivity across all your business locations. From network planning to full deployment, our telco services ensure high-quality connectivity, minimal downtime, and seamless communication.',
+  },
+  {
+    icon: '/assets/images/service-producticon.png',
+    title: 'Voice Services',
+    description: 'Advanced voice solutions including VoIP, SIP trunking, and PBX for crystal-clear calling. Whether on-site or cloud-based, our voice systems are built for efficiency, reliability, and security.',
+  },
+  {
+    icon: '/assets/images/service-designicon.png',
+    title: 'Data Services',
+    description: 'Fast, secure data infrastructure that supports business growth and productivity. Structured cabling, network design, high-speed internet provisioning, wireless solutions, and advanced network monitoring.',
+  },
+  {
+    icon: '/assets/images/service-marketicon.png',
     title: 'Low Voltage Cabling & Structured Wiring',
     description: 'Professional Cat5e, Cat6, and fiber optic cable installation, patch panel termination, cable management, and complete structured cabling systems for offices and facilities.',
   },
