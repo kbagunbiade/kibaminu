@@ -22,7 +22,7 @@ export default function Hero() {
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-5 col-md-12 col-sm-12 col-12" data-aos="fade-right">
-              <div className="banner_content" data-aos="fade-up">
+              <div className="banner_content" data-aos="fade-in">
                 <figure className="banner-line mb-0">
                   <Image
                     src="/assets/images/banner-line.png"

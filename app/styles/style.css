@@ -3140,3 +3140,370 @@ p {
   display: flex;
   align-items: center;
 }
+
+/* ===================================
+   Core Services Section
+   =================================== */
+
+.core-services-section {
+  background-color: var(--e-global-color-very-light-gray-mostly-white);
+  position: relative;
+  padding: 120px 0;
+  overflow: hidden;
+}
+
+/* Video Background */
+.core-services-video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* Theme-Aware Overlay */
+.core-services-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.85);
+  transition: background 0.3s ease;
+}
+
+[data-theme="dark"] .core-services-overlay {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.core-services-section .offer-toplayer {
+  position: absolute;
+  left: -36px;
+  top: 0;
+  z-index: 2;
+}
+
+.core-services-section .offer-bottomlayer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.core-services_content {
+  position: relative;
+  text-align: center;
+  margin-bottom: 60px;
+  z-index: 3;
+}
+
+.core-services_content h6 {
+  color: var(--e-global-color-accent);
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.core-services_content h2 {
+  margin-bottom: 18px;
+}
+
+.core-services_content p {
+  padding: 0 200px;
+  margin-bottom: 0;
+  color: var(--e-global-color-text);
+}
+
+.core-services_content .offer-circleimage {
+  position: absolute;
+  right: 200px;
+  top: 40px;
+}
+
+.core-services-cards {
+  position: relative;
+  z-index: 3;
+}
+
+/* Equal height cards - make columns flex containers (grid view only) */
+.core-services-grid > [class*="col-"] {
+  display: flex;
+}
+
+.core-service-card {
+  background: var(--card-background);
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 57px var(--card-border);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Equal height layout for grid view only */
+.core-services-grid .core-service-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+/* Dynamic height for swiper cards */
+.core-services-swiper .core-service-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.core-service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 1px 1px 70px rgba(23, 204, 215, 0.2);
+}
+
+.core-service-card .card-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.core-service-card .service-icon {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  flex-shrink: 0;
+  margin-bottom: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.core-service-card .service-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Subtle overlay for better contrast in both themes */
+.core-service-card .service-icon::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(23, 204, 215, 0.15) 0%, rgba(59, 130, 246, 0.15) 100%);
+  border-radius: 12px;
+  pointer-events: none;
+}
+
+[data-theme="dark"] .core-service-card .service-icon::after {
+  background: linear-gradient(135deg, rgba(23, 204, 215, 0.2) 0%, rgba(59, 130, 246, 0.2) 100%);
+}
+
+.core-service-card h4 {
+  color: var(--e-global-color-primary);
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 0;
+  line-height: 1.3;
+}
+
+.core-service-card .service-title-link {
+  color: var(--e-global-color-primary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.core-service-card .service-title-link:hover {
+  color: var(--e-global-color-accent);
+  text-decoration: none;
+}
+
+.core-service-card .card-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Card content grows in grid view to push button down */
+.core-services-grid .core-service-card .card-content {
+  flex-grow: 1;
+}
+
+/* Card content natural height in swiper */
+.core-services-swiper .core-service-card .card-content {
+  flex-grow: 0;
+}
+
+.core-service-card .teaser-text {
+  color: var(--e-global-color-text);
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.core-service-card .expanded-content {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: none;
+}
+
+.core-service-card .expanded-content.show {
+  max-height: 1000px;
+  opacity: 1;
+  margin-top: 20px;
+  transition: max-height 0.4s ease, opacity 0.3s ease, margin-top 0.3s ease;
+}
+
+.core-service-card .full-text {
+  color: var(--e-global-color-text);
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.core-service-card .service-image {
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+.core-service-card .service-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.core-service-card:hover .service-image img {
+  transform: scale(1.05);
+}
+
+.core-service-card .expand-btn {
+  background: transparent;
+  border: 2px solid var(--e-global-color-accent);
+  color: var(--e-global-color-accent);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  justify-content: center;
+}
+
+/* Push button to bottom in grid view */
+.core-services-grid .core-service-card .expand-btn {
+  margin-top: auto;
+}
+
+/* Normal margin in swiper */
+.core-services-swiper .core-service-card .expand-btn {
+  margin-top: 0;
+}
+
+.core-service-card .expand-btn:hover {
+  background: var(--e-global-color-accent);
+  color: var(--e-global-color-white);
+  transform: translateY(-2px);
+}
+
+.core-service-card .expand-btn i {
+  font-size: 14px;
+  transition: transform 0.3s ease;
+}
+
+.core-service-card.expanded .expand-btn i {
+  transform: rotate(180deg);
+}
+
+/* Dark mode adjustments */
+[data-theme="dark"] .core-services-section {
+  background-color: var(--background-secondary);
+}
+
+[data-theme="dark"] .core-service-card {
+  background: var(--background-color);
+  border: 1px solid rgba(23, 204, 215, 0.2);
+}
+
+[data-theme="dark"] .core-service-card:hover {
+  border-color: var(--e-global-color-secondary);
+}
+
+/* Swiper Carousel Styles */
+.core-services-swiper {
+  display: none;
+  position: relative;
+  z-index: 3;
+  padding: 0 15px 50px;
+}
+
+.core-services-slider {
+  padding-bottom: 40px;
+}
+
+/* Smooth height transitions when cards expand/collapse */
+.core-services-slider .swiper-wrapper {
+  transition: height 0.3s ease;
+}
+
+.core-services-slider .swiper-slide {
+  height: auto;
+  display: flex;
+}
+
+.core-services-slider .core-service-card {
+  margin-bottom: 0;
+}
+
+/* Swiper Pagination */
+.core-services-slider .swiper-pagination {
+  bottom: 0 !important;
+}
+
+.core-services-slider .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: var(--e-global-color-accent);
+  opacity: 0.3;
+  transition: all 0.3s ease;
+}
+
+.core-services-slider .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: var(--e-global-color-accent);
+  width: 24px;
+  border-radius: 5px;
+}
+
+[data-theme="dark"] .core-services-slider .swiper-pagination-bullet {
+  background: var(--e-global-color-secondary);
+}
+
+[data-theme="dark"] .core-services-slider .swiper-pagination-bullet-active {
+  background: var(--e-global-color-secondary);
+}
+
+/* Show grid by default, hide swiper */
+.core-services-grid {
+  display: flex;
+}
+
+.core-services-swiper {
+  display: none;
+}

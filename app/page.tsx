@@ -2,6 +2,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
 import Services from '@/components/Services';
+import CoreServices from '@/components/CoreServices';
 import AboutSection from '@/components/AboutSection';
 import Image from 'next/image';
 
@@ -22,6 +23,7 @@ export default function Home() {
         <Hero />
       </div>
       <Services />
+      <CoreServices />
       <AboutSection />
       <Footer />
     </>

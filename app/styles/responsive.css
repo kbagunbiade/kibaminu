@@ -1451,3 +1451,230 @@ p {font-size: 14px; line-height: 20px;}
     display: none !important;
   }
 }
+/* ===================================
+   Core Services Responsive Styles
+   =================================== */
+
+/* Tablet (below 992px) - 2 columns on medium tablets */
+@media only screen and (max-width: 991px) {
+  .core-services-section {
+    padding: 80px 0;
+  }
+
+  /* Ensure video background scales properly on tablet */
+  .core-services-video-bg {
+    object-fit: cover;
+  }
+
+  /* Ensure container stays above overlay */
+  .core-services-section .container {
+    position: relative;
+    z-index: 3;
+  }
+
+  .core-services_content h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+
+  .core-services_content p {
+    font-size: 16px;
+    padding: 0 50px;
+  }
+
+  .core-services-cards {
+    margin-top: 40px;
+  }
+
+  .core-service-card {
+    padding: 25px;
+  }
+
+  .core-service-card .card-header h4 {
+    font-size: 20px;
+  }
+
+  .core-service-card .teaser-text {
+    font-size: 15px;
+  }
+
+  .core-service-card .full-text {
+    font-size: 15px;
+  }
+
+  .core-service-card .expand-btn {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+}
+
+/* Small tablet (below 768px) - Single column */
+@media only screen and (max-width: 767px) {
+  .core-services-section {
+    padding: 60px 0;
+  }
+
+  /* Increase overlay opacity on mobile for better readability */
+  .core-services-overlay {
+    background: rgba(255, 255, 255, 0.90);
+  }
+
+  [data-theme="dark"] .core-services-overlay {
+    background: rgba(0, 0, 0, 0.80);
+  }
+
+  /* Hide grid, show swiper on mobile */
+  .core-services-grid {
+    display: none !important;
+  }
+
+  .core-services-swiper {
+    display: block !important;
+  }
+
+  .core-services_content {
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .core-services_content h6 {
+    font-size: 15px;
+  }
+
+  .core-services_content h2 {
+    font-size: 30px;
+    margin-bottom: 12px;
+  }
+
+  .core-services_content p {
+    font-size: 15px;
+    margin-bottom: 15px;
+    padding: 0;
+  }
+
+  .core-services_content .offer-circleimage {
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .core-services_content .offer-circleimage img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .core-services-cards {
+    margin-top: 30px;
+  }
+
+  .core-service-card {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .core-service-card .card-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .core-service-card .service-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .core-service-card .card-header h4 {
+    font-size: 19px;
+  }
+
+  .core-service-card .card-content {
+    text-align: center;
+  }
+
+  .core-service-card .teaser-text {
+    font-size: 14px;
+  }
+
+  .core-service-card .full-text {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .core-service-card .service-image {
+    margin-top: 15px;
+  }
+
+  .core-service-card .service-image img {
+    border-radius: 8px;
+  }
+
+  .core-service-card .expand-btn {
+    font-size: 14px;
+    padding: 10px 18px;
+    width: 100%;
+  }
+}
+
+/* Mobile (below 576px) - Further optimizations */
+@media only screen and (max-width: 575px) {
+  .core-services-section {
+    padding: 50px 0;
+  }
+
+  .core-services_content h2 {
+    font-size: 26px;
+  }
+
+  .core-services_content p {
+    font-size: 14px;
+    padding: 0;
+  }
+
+  .core-services-cards {
+    margin-top: 25px;
+  }
+
+  .core-service-card {
+    padding: 18px;
+  }
+
+  .core-service-card .card-header h4 {
+    font-size: 18px;
+  }
+
+  .core-service-card .service-icon {
+    width: 55px;
+    height: 55px;
+  }
+
+  .core-service-card .teaser-text,
+  .core-service-card .full-text {
+    font-size: 13px;
+  }
+
+  .core-service-card .expand-btn {
+    font-size: 13px;
+    padding: 9px 16px;
+    gap: 6px;
+  }
+
+  .core-service-card .expand-btn i {
+    font-size: 12px;
+  }
+
+  /* Reduce expanded content spacing on small screens */
+  .core-service-card .expanded-content.show {
+    margin-top: 15px;
+  }
+
+  .core-service-card .service-image {
+    margin-top: 12px;
+  }
+
+  /* Adjust decorative layers */
+  .core-services-section .offer-toplayer,
+  .core-services-section .offer-bottomlayer {
+    display: none;
+  }
+}
