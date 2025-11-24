@@ -79,6 +79,31 @@ const servicesData = [
     title: 'Network & Hardware Troubleshooting',
     description: 'On-site diagnostics and repair for network issues, computer problems, hardware failures, and equipment replacement—getting your systems back online fast.',
   },
+  {
+    icon: '/assets/images/service-marketicon.png',
+    title: 'Conference Room Setup & Video Conferencing',
+    description: 'Professional conference room design, video conferencing systems installation, collaboration tools integration, display mounting, and audio visual setup for effective business communication.',
+  },
+  {
+    icon: '/assets/images/service-producticon.png',
+    title: 'AV/Pro Audio Visual Setup & Installation',
+    description: 'Professional audio visual systems deployment, sound engineering, projector and display installation, speaker configuration, and complete AV equipment setup for events, venues, and facilities.',
+  },
+  {
+    icon: '/assets/images/service-designicon.png',
+    title: 'Smart Home Automation',
+    description: 'Home automation systems implementation, smart device integration, lighting control, thermostat automation, security system connectivity, and intelligent home solutions for modern living.',
+  },
+  {
+    icon: '/assets/images/service-dataicon.png',
+    title: 'Cloud Services',
+    description: 'Cloud infrastructure setup and migration, cloud storage solutions, managed cloud platforms, backup systems, disaster recovery planning, and ongoing cloud service management.',
+  },
+  {
+    icon: '/assets/images/service-marketicon.png',
+    title: 'E-Waste Disposal',
+    description: 'Responsible electronic waste recycling, secure data destruction and hard drive wiping, environmentally compliant disposal services, and IT asset decommissioning for businesses and organizations.',
+  },
 ];
 
 export default function Services() {

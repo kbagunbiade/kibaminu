@@ -20,10 +20,12 @@ export default function Contact() {
   } = useForm<FormData>();
 
   const onSubmit = async (data: FormData) => {
-    // Handle form submission
-    console.log('Form data:', data);
-    // You can add your form submission logic here
-    alert('Thank you for your message! We will get back to you soon.');
+    const subject = 'Contact Form Submission';
+    const body = `Name: ${data.name}\nEmail: ${data.email}\n\nMessage:\n${data.message}`;
+
+    const mailtoLink = `mailto:admin@kibaminutechsolutions.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    window.location.href = mailtoLink;
     reset();
   };
 
